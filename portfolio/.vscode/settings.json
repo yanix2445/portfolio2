@@ -1,0 +1,14 @@
+{
+    "spellright.language": [
+        "fr"
+    ],
+    "spellright.documentTypes": [
+        "markdown",
+        "latex",
+        "plaintext",
+        "typescriptreact"
+    ],
+    "cSpell.words": [
+        "Turbohéberge"
+    ]
+}
