@@ -26,9 +26,9 @@ export default function Home() {
                 <h1>YANIS HARRAT</h1>
                 <h2>DEVLOPPER FULL-STACK </h2>
                 <p>
-                  Avect un oeil sur le design et une passion pour le code, je
+                  Avect u oeil sur le design et une passion pour le code, je
                   suis un développeur full-stack. J'aime créer des sites web
-                  modernes et efficaces.
+                  modernes et efficaces. J'ai une expérience de 2 ans dans
                 </p>
               </div>
             </div>
