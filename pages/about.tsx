@@ -33,7 +33,7 @@ const about = () => {
                         </div>
                         <div className="col-2">
                             <div className="right-about">
-                                <Image className='logo-about' src="/CodeDevelopment_Two Color.svg" width={500} height={500} alt={''} />
+                                <Image className='logo-about' src="/CodeDevelopment_Two Color.svg" width={500} height={500} alt={'gqweg'} />
                             </div>
                         </div>
                     </div>
