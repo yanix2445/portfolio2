@@ -3,6 +3,7 @@ import Head from 'next/head';
 import Navbar from '../pages/components/navbar';
 
 
+
 const contact = () => {
     return (
         <>
@@ -31,28 +32,26 @@ const contact = () => {
                             </div>
                             <div className="col-1">
                                 <div className="right">
-                                    <form
-                                        name="CONTACT"
-                                        method='post'
-                                        className='contact1'
-                                        datat-netlify='true'
-                                        onSubmit="submit">
-
-                                        <input type="hidden" name="form-name" value="CONTACT" />
-
-                                        <label htmlFor="name">Nom</label>
-                                        <input type="text" placeholder="Nom" />
-
-                                        <label htmlFor="email">Email</label>
-                                        <input type="email" placeholder="Email" />
-
-                                        <label htmlFor="subject">Sujet</label>
-                                        <input type="text" placeholder="Sujet" />
-
-                                        <label htmlFor="message">Message</label>
-                                        <textarea name="" id="" cols={30} rows={10} placeholder="Message" />
-
-                                        <button type="submit">Envoyer</button>
+                                    
+                                    <form name="contact" method="POST" data-netlify="true">
+                                        <p>
+                                            <label>Your Name: <input type="text" name="name" /></label>
+                                        </p>
+                                        <p>
+                                            <label>Your Email: <input type="email" name="email" /></label>
+                                        </p>
+                                        <p>
+                                            <label>Your Role: <select name="role[]" multiple>
+                                                <option value="leader">Leader</option>
+                                                <option value="follower">Follower</option>
+                                            </select></label>
+                                        </p>
+                                        <p>
+                                            <label>Message: <textarea name="message"></textarea></label>
+                                        </p>
+                                        <p>
+                                            <button type="submit">Send</button>
+                                        </p>
                                     </form>
                                 </div>
                             </div>
