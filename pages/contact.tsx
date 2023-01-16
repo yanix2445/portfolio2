@@ -18,12 +18,6 @@ const contact = () => {
             </header>
 
             <main>
-                <form name="contact" netlify netlify-honeypot="bot-field" hidden>
-                    <input type="text" name="name" />
-                    <input type="email" name="email" />
-                    <input type="text" placeholder="Sujet" />
-                    <textarea name="message"></textarea>
-                </form>
                 <div className="contact">
                     <div className="container">
                         <div className="row">
