@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import Head from 'next/head'
 import Navbar from '../pages/components/navbar'
 import Image from 'next/image'
@@ -28,7 +29,7 @@ export default function Home() {
                 <p>
                   Avect u oeil sur le design et une passion pour le code, je
                   suis un développeur full-stack. J'aime créer des sites web
-                  modernes et efficaces. J'ai une expérience de 2 ans dans
+                  modernes et efficaces.J'ai une expérience de 2 ans dans
                 </p>
               </div>
             </div>

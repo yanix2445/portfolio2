@@ -44,24 +44,23 @@ const navbar = () => {
                 <div className="social">
                     <ul className='social-link'>
                         <li>
-                            <a href="https://www.facebook.com/yanis.harrat.7" target="_blank">
+                            <Link href="https://www.facebook.com/yanis.harrat.7" target="_blank" rel="noreferrer">
                                 <Image src="/insta.svg" width={40} height={40} alt={''} />
-                            </a>
+                            </Link>
                         </li>
                         <li>
-                            <a href="https://www.instagram.com/yanix_921/" target="_blank">
+                            <Link href="https://www.instagram.com/yanix_921/" target="_blank" rel="noreferrer">
                                 <Image src="/fb.svg" width={40} height={40} alt={''} />
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://github.com/yanix2445?tab=repositories" target="_blank">
+                            </Link>
+                        </li>                        <li>
+                            <Link href="https://github.com/yanix2445?tab=repositories" target="_blank" rel="noreferrer">
                                 <Image src="/github.png" width={40} height={40} alt={''} />
-                            </a>
+                            </Link>
                         </li>
                          <li>
-                            <a href="https://www.linkedin.com/in/yanis-harrat-09b172253/?originalSubdomain=frhttps://github.com/yanix2445?tab=repositories" target="_blank">
+                            <Link href="https://www.linkedin.com/in/yanis-harrat-09b172253/?originalSubdomain=frhttps://github.com/yanix2445?tab=repositories" target="_blank" rel="noreferrer">
                                 <Image src="/linkedin.png" width={40} height={40} alt={''} />
-                            </a>
+                            </Link>
                         </li>
                     </ul>
                 </div>
