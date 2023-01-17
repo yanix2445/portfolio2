@@ -45,12 +45,12 @@ const navbar = () => {
                     <ul className='social-link'>
                         <li>
                             <Link href="https://www.facebook.com/yanis.harrat.7" target="_blank" rel="noreferrer">
-                                <Image src="/insta.svg" width={40} height={40} alt={''} />
+                                <Image src="/fb.svg" width={40} height={40} alt={''} />
                             </Link>
                         </li>
                         <li>
                             <Link href="https://www.instagram.com/yanix_921/" target="_blank" rel="noreferrer">
-                                <Image src="/fb.svg" width={40} height={40} alt={''} />
+                                <Image src="/insta.svg" width={40} height={40} alt={''} />
                             </Link>
                         </li>                        <li>
                             <Link href="https://github.com/yanix2445?tab=repositories" target="_blank" rel="noreferrer">
