@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import React from 'react';
 import Head from 'next/head';
 import Navbar from '../pages/components/navbar';
@@ -25,9 +26,9 @@ const contact = () => {
             <div className="row">
               <div className="col-1">
                 <div className="left">
-                  <h1>CONTACT</h1>
+                  <h1>CONTACT</h1>               
                   <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae.
+                    Pour toute demande de renseignement, n'hésitez pas à me contacter
                   </p>
                 </div>
               </div>
@@ -36,16 +37,16 @@ const contact = () => {
 
                   <form name="contact" method="POST" data-netlify="true">
                     <p>
-                      <label>Your Name: <input type="text" name="name" /></label>
+                      <label>Name <input type="text" name="name" /></label>
                     </p>
                     <p>
-                      <label>Your Email: <input type="email" name="email" /></label>
+                      <label>Email <input type="email" name="email" /></label>
                     </p>
                     <p>
-                      <label>Message: <textarea name="message"></textarea></label>
+                      <label>Message <textarea name="message"></textarea></label>
                     </p>
                     <p>
-                      <button type="submit">Send</button>
+                      <button className='btn' type="submit">Envoyer</button>
                     </p>
                   </form>
 

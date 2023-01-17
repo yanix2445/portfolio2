@@ -39,7 +39,7 @@ const portfolio = () => {
                                         <p className="category">J'ai conçu et développé une API et un site web pour gérer les emplois d'étudiants dans une école en utilisant des technologies modernes pour une expérience utilisateur intuitive et efficace.</p>
                                     </div>
                                     <div className="card__overlay">
-                                    <Link href="#">+</Link>
+                                    <Link href="#" target="_blank" >+</Link>
                                     </div>
                                 </div>
                             </div>
@@ -51,7 +51,7 @@ const portfolio = () => {
                                         <p className="category">J'ai conçu et développé une API et un site web e-commerce pour vendre des services d'hébergement web en utilisant des technologies modernes pour une expérience utilisateur fluide.</p>
                                     </div>
                                     <div className="card__overlay">
-                                    <Link href="#">+</Link>
+                                    <Link href="https://turboheberge.netlify.app" target="_blank" >+</Link>
                                     </div>
                                 </div>
                             </div>
@@ -63,7 +63,7 @@ const portfolio = () => {
                                         <p className="category">J'ai conçu et développé un site web e-commerce pour vendre mes services de développement full-stack et de maintenance informatique et électronique. <br /></p>
                                     </div>
                                     <div className="card__overlay">
-                                    <Link href="#">+</Link>
+                                    <Link href="#" target="_blank" >+</Link>
                                     </div>
                                 </div>
                             </div>
@@ -75,7 +75,7 @@ const portfolio = () => {
                                         <p className="category"> J'ai conçu un portfolio pour montrer mes compétences en développement web, utilisant des technologies modernes pour une expérience utilisateur interactive et agréable..</p>
                                     </div>
                                     <div className="card__overlay">
-                                         <Link href="#">+</Link>
+                                         <Link href="https://yanis-2-0.netlify.app" target="_blank" >+</Link>
                                     </div>
                                 </div>
                             </div>

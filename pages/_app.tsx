@@ -5,6 +5,7 @@ import 'styles/about.scss'
 import 'styles/index.scss'
 import 'styles/services.scss'
 import 'styles/portfolio.scss'
+import 'styles/contact.scss'
 import type { AppProps } from 'next/app'
 
 export default function App({ Component, pageProps }: AppProps) {
