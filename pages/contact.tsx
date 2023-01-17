@@ -5,6 +5,7 @@ import Navbar from '../pages/components/navbar';
 
 
 const contact = () => {
+
   return (
     <>
       <Head>
@@ -35,16 +36,13 @@ const contact = () => {
 
                   <form name="contact" method="POST" data-netlify="true">
                     <p>
-                      <label htmlFor="name"> Your Name: </label>
-                      <input type="text" name="name" />
+                      <label>Your Name: <input type="text" name="name" /></label>
                     </p>
                     <p>
-                      <label htmlFor="email"> Your Email: </label>
-                       <input type="email" name="email" />
+                      <label>Your Email: <input type="email" name="email" /></label>
                     </p>
                     <p>
-                      <label htmlFor="email"> Message: </label>
-                      <textarea name="message"></textarea>
+                      <label>Message: <textarea name="message"></textarea></label>
                     </p>
                     <p>
                       <button type="submit">Send</button>
@@ -59,6 +57,5 @@ const contact = () => {
       </main>
     </>
   );
-};
-
+}
 export default contact;
