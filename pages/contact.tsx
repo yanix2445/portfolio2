@@ -35,15 +35,15 @@ const contact = () => {
 
                   <form name="contact2.0" method="POST" >
                     <p>
-                      <label for="name"> Your Name: </label>
+                      <label htmlFor="name"> Your Name: </label>
                       <input type="text" name="name" />
                     </p>
                     <p>
-                      <label for="email"> Your Email: </label>
+                      <label htmlFor="email"> Your Email: </label>
                        <input type="email" name="email" />
                     </p>
                     <p>
-                      <labe for="email"> Message: </label>
+                      <label htmlFor="email"> Message: </label>
                       <textarea name="message"></textarea>
                     </p>
                     <p>
