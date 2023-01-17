@@ -33,7 +33,7 @@ const contact = () => {
               <div className="col-1">
                 <div className="right">
 
-                  <form name="contact2.0" method="POST" >
+                  <form name="contact" method="POST" data-netlify="true">
                     <p>
                       <label htmlFor="name"> Your Name: </label>
                       <input type="text" name="name" />
